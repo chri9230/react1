@@ -1,7 +1,7 @@
 import { books } from "../data/books/horror";
 import Book from './Book';
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
+import {Container, Row} from 'react-bootstrap';
+
 import './AllTheBooks.css';
 
 const AllTheBooks = () => {
