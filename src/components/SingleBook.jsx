@@ -11,11 +11,14 @@ const SingleBook = ({ book }) => {
 
   return (
     <Col sm={4}>
-      <Card className={selected ? 'selected' : ''} onClick={handleCoverClick}>
+      <Card 
+      className={`custom-card ${selected ? 'selected' : ''}`} 
+      onClick={handleCoverClick} 
+      style={{ border: selected ? '2px solid red' : 'none' }}>
         <Card.Img
           variant="top"
           src={book.img}
-          style={{ border: selected ? '2px solid red' : 'none' }}
+          
         />
         <Card.Body>
           <Card.Title>{book.title}</Card.Title>

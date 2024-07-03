@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import { books as initialBooks } from "../data/books/horror";
 import SingleBook from './SingleBook';
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
+import {Container, Row} from 'react-bootstrap';
+
 import InputSearch from './InputSearch';
 import './AllTheBooks.css';
 
