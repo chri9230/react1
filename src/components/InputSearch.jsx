@@ -1,6 +1,7 @@
 import {Form, InputGroup} from 'react-bootstrap';
 import { useState } from 'react';
 
+
 const InputSearch = ({ setFilteredBooks, initialBooks }) => {
   const [search, setSearch] = useState('');
 
@@ -22,6 +23,8 @@ const InputSearch = ({ setFilteredBooks, initialBooks }) => {
         value={search} 
         onChange={handleInputChange}
       />
+
+     
     </InputGroup>
   );
 }
